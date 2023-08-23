@@ -1,0 +1,27 @@
+{
+    "categorias" : [
+        {
+            "nome" : "Tipo de animal",
+            "tags" : ["Cachorro", "Gato", "Girafa"]
+        },
+        {
+            "nome" : "Idade do animal",
+            "tags" : ["Jovem", "Adulto", "Idoso"]
+        }
+    ],
+
+    "elementos" : [
+        {
+            "texto" : "Elias",
+            "tags" : ["Cachorro", "Jovem"]
+        },
+        {
+            "texto" : "Rex",
+            "tags" : ["Girafa", "Adulto"]
+        },
+        {
+            "texto" : "Mingau",
+            "tags" : ["Gato", "Idoso"]
+        }
+    ]
+}
