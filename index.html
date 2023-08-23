@@ -14,7 +14,7 @@
         </div>
     </div>
 
-    <div id="resultado"></div>
+    <div id="resultado" class="mx-auto" style="width: 50vw;"></div>
     
     <script>
         var objeto = undefined
@@ -55,10 +55,10 @@
                 resultado.innerHTML+="<h1>"+tags[i]
                 for(var j = 0; j<objeto.elementos.length; j++){
                     if(objeto.elementos[j].tags.includes(tags[i]))
-                        resultado.innerHTML+="<p>"+objeto.elementos[j].texto+"</p>"
+                        resultado.innerHTML+="<p>"+objeto.elementos[j].texto+"<br>"+objeto.elementos[j].tags+"</p><hr>"
                     
                 }
-                resultado.innerHTML+="</h1>"
+                resultado.innerHTML+="</h1><hr>"
             }
         }
 
